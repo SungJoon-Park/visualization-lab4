@@ -3,7 +3,7 @@ let dataset;
 
 
 d3.csv('wealth-health-2014.csv', d3.autoType).then(d=>{
-    console.log('dataset', d);
+    console.log('dataset' , d);
 
 
     width = 100;
