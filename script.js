@@ -75,6 +75,7 @@ d3.csv('wealth-health-2014.csv', d3.autoType).then(data=>{
     
     svg.append('text')
         .text('Income')
+        .attr('class','titles')
         .attr('x',width-60)
         .attr('y',height+10)
         .attr('text-anchor','middle')
@@ -83,6 +84,7 @@ d3.csv('wealth-health-2014.csv', d3.autoType).then(data=>{
     
     svg.append('text')
         .text('Life Expectancy')
+        .attr('class','titles')
         .attr('x',30)
         .attr('y',60)
         .attr('text-anchor','middle')
